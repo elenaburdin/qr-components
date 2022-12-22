@@ -1,0 +1,46 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background: var(--light-gray);
+    font-family: Outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    background: var(--white);
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 17px;
+    border-radius: 17px;
+}
+
+.container .card__text {
+    margin: 0 10px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 17px;
+}
+
+
+.card__text h1 {
+    font-size: 25px;
+    color: var(--dark-blue);
+}
+
+.card__text p {
+    font-size: 15px;
+    color: var(--grayish-blue);
+    padding-bottom: 50px;
+    margin: 0 25px;
+}
